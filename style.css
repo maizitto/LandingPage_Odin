@@ -1,0 +1,156 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+header {
+    background-color: #1f2937;
+    color: #f9faf8;
+}
+
+.navbar  {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    height: 20px;
+    background-color: #1f2937;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+
+.hero {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    gap: 20px;
+    z-index: 1;
+}
+
+.hero img {
+    flex-shrink: 0;
+    width: 300px;
+    height: 200px;
+    margin-right: 50px;
+    flex: 0.5;
+}
+
+.hero-text {
+    padding: 40px;
+    flex: 0.5;
+}
+
+.subtext-hero {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.btn-hero {
+    background-color: #3882f6;
+    border-style: none;
+    border-radius: 5px;
+    color: white;
+    width: 90px;
+    height: 30px;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 900;
+    margin: 0;
+}
+
+.card-section {
+    flex-direction: column;
+    text-align: center;
+    padding: 50px;
+
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+}
+
+.card {
+    flex: 1;
+    width: 10px;
+}
+
+.card-img {
+width: 200px;
+}
+
+.mot-quote {
+    background-color: #e5e7eb;
+    text-align: center;
+    padding: 50px;
+}
+
+.quote {
+    width: 50%;
+    margin-left: 25%;
+    font-size: 26px;
+    font-style: italic;
+    font-weight: lighter;
+    margin-bottom: 0;
+}
+
+.quote-auth {
+    text-align: end;
+    margin-right: 25%;
+    font-weight: bold;
+    margin-top: 0;
+}
+
+.signup-sec {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: auto;
+    margin: 25%;
+    justify-content: space-around;
+    height: 100px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: #3882f6;
+    border-radius: 10px;
+    color: #e5e7eb;
+    font-size: 15px;
+}
+
+.signup-sec .signup-title{
+    font-weight: bolder;
+    margin-bottom: 0;
+}
+.signup-btn {
+    background-color: #3882f6;
+    border: 1px solid #f9faf8;
+    border-radius: 5px;
+    color: white;
+    width: 90px;
+    height: 30px;   
+}
+
+button:hover{
+    background-color:#f9faf8;
+    color: black;
+    transition: 0.5s;
+}
+
+.footer {
+    background-color: #1f2937;
+    text-align: center;
+    color: #f9faf8;
+    font-style: italic;
+}
