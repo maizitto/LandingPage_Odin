@@ -88,7 +88,10 @@ h1 {
 }
 
 .card-img {
-width: 200px;
+width: 150px;
+height: 150px;
+border: 3px solid #3882f6;
+border-radius: 10px;
 }
 
 .mot-quote {
@@ -119,14 +122,19 @@ width: 200px;
     align-items: center;
     padding: auto;
     margin: 25%;
-    justify-content: space-around;
+    justify-content: space-between;
+    gap: 20px;
     height: 100px;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin: 90px auto;
+    padding: 20px;
     background-color: #3882f6;
     border-radius: 10px;
     color: #e5e7eb;
     font-size: 15px;
+}
+
+.signup-text {
+    flex: 0.8;
 }
 
 .signup-sec .signup-title{
